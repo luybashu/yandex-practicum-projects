@@ -1,7 +1,7 @@
 # 15. Age Detection by Photo.
 A chain supermarket introduces a computer vision system to analyze customer photos taken at the checkout area. This system enables age detection for analyzing purchases and suggesting relevant products based on customer age and for monitoring cashiers' compliance with regulations regarding alcohol sales.
 
-[HTML](15_photo-ages.html) [ipynb](15_photo-ages.ipynb)
+[HTML](photo-ages.html) [ipynb](photo-ages.ipynb)
 ### Goal: 
 Develop a CNN-based ML model to detect the age of customers from their photos.<br>
 Target performance metric: **MAE < 8**.
