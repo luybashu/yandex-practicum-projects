@@ -16,5 +16,5 @@ Graphical representation of the classification outcome through WordClouds furthe
 ### Stack: 
 - `Pandas`, `Matplotlib`, `Seaborn`, `NumPy`, `Scikit-learn`, `NLTK`
 -  *WordNetLemmatizer, pos-tagging, TF-IDF*
--  *LogisticRegression, LGBMClassifier, LinearSVC
+-  *LogisticRegression, LGBMClassifier, LinearSVC*
 -  *Pipline, WordCloud*
