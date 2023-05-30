@@ -8,7 +8,7 @@ Target performance metric: **MAE < 8**.
 ### Data: 
 A collection of photos of people with age indications. Data taken from [ChaLearn Looking at People](https://chalearnlap.cvc.uab.cat/dataset/26/description/).
 ### Result: 
-The pre-trained ResNet50 model, with a learning rate of 0.0002, successfully predicted a person's age from their photo, **MAE=7** years after 5 epochs.<br> 
+The pre-trained `ResNet50 model`, with a learning rate of 0.0002, successfully predicted a person's age from their photo, **MAE=7** years after 5 epochs.<br> 
 The MAE was employed as the loss function, and ReLU served as the activation function for the last neuron. It is worth noting that the validation loss exceeded the training set, suggesting the presence of overfitting.<br> 
 To improve the model prediction an error analysis may be performed. This analysis can help to uncover the age groups where the model more frequently errs. The training dataset can be augmented with additional data from those specific age ranges. 
 ### Stack: 
