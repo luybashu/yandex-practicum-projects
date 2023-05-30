@@ -1,7 +1,7 @@
 # 16. Final Project. Alloy Temperature Prediction.
 A steel mill needs to optimize production costs by reducing electricity consumption during the steel processing stage. By accurately predicting the alloy temperature at the end of processing, more efficient process protocols can be developed.
 
-[HTML](link) [ipynb](link)
+[HTML](16_final-steel.html) [ipynb](16_final-steel.ipynb)
 ### Goal: 
 Develop an ML model to predict the final temperature of the alloy.<br>
 Target performance metric: **MAE < 6.8**.
