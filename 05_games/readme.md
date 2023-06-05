@@ -6,7 +6,7 @@ In December 2016, an online computer games store with global sales is preparing 
 Identify patterns and characteristics that affect the success of game sales.
 ### Data:
 Historical open-source data on game sales in North America, Europe and Japan up to 2016, including user and expert ratings, year of release, game genres, platforms, and rating from the ESRB. The data for 2016 might be incomplete.
-### Project framework:
+### Framework:
 - Data overview.
 -	Data preprocessing: handling missing values, changing data types, creating new features.
 -	Exploratory data analysis: selecting a sales analysis period; creating user profiles for each region.
