@@ -12,7 +12,7 @@ A collection of marked comments indicating toxicity level (0 for neutral comment
 -	Data overview and preprocessing: cleaning texts, lemmatization.
 -	WordClouds for toxic and neutral comments.
 -	Pipeline incorporating TF-IDF vectorization and model selection.
--	Model testing, WordClouds of words predicted as toxic or neutral
+-	Model testing, WordClouds predicted as toxic or neutral
 -	General conclusion.
 ### Result:
 The texts of comments were vectorized using TF-IDF after undergoing lemmatization with pos-tagging.<br> 
