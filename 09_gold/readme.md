@@ -8,6 +8,14 @@ Develop an ML model to predict the recovery coefficients of gold.<br>
 Target performance metric: Symmetric Mean Absolute Percentage Error, **sMAPE**.
 ### Data:
 Historical data from the rougher and cleaning stages of the gold recovery process: grain size and ore feed rate, amount of flotation reagents, characteristics of flotation banks, gold and other metal concentrations in ore, after cleaning and in tails. The data is indexed based on the date and time of information reception. Neighbouring parties generally exhibit similar performance patterns.
+### Framework:
+-	Data overview.
+-	Exploratory data analysis: analysis of features and their interactions; analysis of concentration of metals at different stages of recovery process.
+-	Data preprocessing: handling missing values, dealing with outliers.
+-	Feature engineering: feature selection.
+-	Model selection with cross-validation.
+-	Model testing and feature importance.
+-	General conclusion.
 ### Result:
 Thorough EDA and feature selection were performed.<br>
 *Models tested*: `LinearRegression`, `RandomForestRegressor`.<br>
