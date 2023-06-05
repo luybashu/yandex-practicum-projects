@@ -8,6 +8,12 @@ Develop an ML model to classify comments into toxic and neutral.<br>
 Target performance metric: **F1 >= 0.75**.
 ### Data: 
 A collection of marked comments indicating toxicity level (0 for neutral comments, 1 for toxic comments).
+### Framework:
+-	Data overview and preprocessing: cleaning texts, lemmatization.
+-	WordClouds for toxic and neutral comments.
+-	Pipeline incorporating TF-IDF vectorization and model selection.
+-	Model testing, WordClouds of words predicted as toxic or neutral
+-	General conclusion.
 ### Result:
 The texts of comments were vectorized using TF-IDF after undergoing lemmatization with pos-tagging.<br> 
 *Models tested*: `LogisticRegression`, `LGBMClassifier`, `LinearSVC` with different TF-IDF parameters.<br>
