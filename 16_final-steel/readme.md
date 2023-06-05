@@ -6,7 +6,16 @@ A steel mill needs to optimize production costs by reducing electricity consumpt
 Develop an ML model to predict the final temperature of the alloy.<br>
 Target performance metric: **MAE < 6.8**.
 ### Data: 
-Historical data obtained from various sources during different steps of alloy processing: temperature measurements; heating data; supply of bulk and wire alloy additions; gas purge information. 
+Historical data obtained from various sources during different steps of alloy processing: temperature measurements; heating data; supply of bulk and wire alloy additions; gas purge information.
+### Framework:
+-	Plan.
+-	Exploratory data analysis: analysis of features and their interactions, handling missing values.
+-	Feature engineering: feature creation and selection.
+-	Train/test split and dealing with outliers.
+-	Pipeline incorporating data scaling and model selection. 
+-	Analysis of feature importance.
+-	Model testing; evaluating model performance.
+-	Final report with general conclusions and recommendations.
 ### Result:
 Thorough EDA, feature selection, and engineering enabled the development of an ML model with low temperature prediction error.<br> 
 *Models tested*: `ElasticNet`, `LGBMRegressor`, `CatBoostRegressor`.<br>
