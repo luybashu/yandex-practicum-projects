@@ -1,4 +1,4 @@
-# yandex-praktikum-projects
+# yandex-practicum-projects
 These projects were completed during my 8-month studies in the "Data Science Specialist" program at Yandex.Practicum.<br>
 All projects are in Russian, and have descriptions in English.
 
